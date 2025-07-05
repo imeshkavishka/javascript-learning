@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <h2 id="hdt">Shopping List</h2>
+    </nav>
+    <div class="container">
+        <div id="frm">
+            <p>Shopping Item List</p>
+            <h3 id="frmt"> Add Items</h3>
+            <form action="">
+                <input type="text">
+                <select>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <div id="list">
+            <h3>Shopping Items</h3>
+            <ul id="li-items">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+        <div id="output"></div>
+        <!-- <button onclick="btnClick(this.textContent)">Click Me</button> -->
+         <button id ="c-btn">Click Me</button>
+         <button id="i-btn">Change Items</button>
+         <button id="e-btn" class="sample btn">Sample Button</button>
+
+    </div>
+    <script src="./event.js"></script>
+</body>
+</html>
